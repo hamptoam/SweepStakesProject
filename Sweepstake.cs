@@ -6,13 +6,22 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProject
 {
-    class Program
+    public class Sweepstake
     {
-        static void Main(string[] args)
+
+
+        public Sweepstake()
         {
-            List<IDictionary> contestants = new List<IDictionary>();
-            
+
 
         }
+
+        public static void Main()
+        { 
+ 
+
+       
+        };
     }
 }
+
