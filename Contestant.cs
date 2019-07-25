@@ -8,32 +8,52 @@ namespace SweepstakesProject
 {
     public class Contestant
     {
-        public int registrationNum { get; set; }
-        public string firstName;
-        public string lastName;
-        public string email;
-      
+        public int id { get; set; }
+        public string name { get; set; }
+        public string email { get; set; }
 
-
-        public Contestant()
+        public Contestant(int id)
         {
-
-            Contestant contestant = new Contestant()
-            {
-                registrationNum = 8675309;
-                firstName = "Susan";
-                lastName = "Anderson";
-                email = "suziAn@gmail.com";
-               
-            };
-
-            {
-                registrationNum = 8675308;
-                firstName = "Bill";
-                lastName = "Anderson";
-                email = "billson@gmail.com";
-            };
-
+            GetContestants();
         }
+
+          public void GetContestants()
+        {
+            Dictionary<object, Contestant> contestants = new Dictionary<object, Contestant>();
+            
+
+           var c1 = new Contestant(8675309);
+            c1.name = "Mary Anderson";
+            c1.email = "";
+            
+
+
+            var c2 = new Contestant(8675308);
+            c2.name = "Peter Anderson";
+            c2.email = "";
+
+            var c3 = new Contestant(8675307);
+            c3.name = "";
+            
+
+
+        }        
     }
 }
+                
+            
+
+
+                
+
+            
+
+                    
+
+
+
+                    
+
+
+
+
