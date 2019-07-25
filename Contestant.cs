@@ -14,30 +14,9 @@ namespace SweepstakesProject
 
         public Contestant(int id)
         {
-            GetContestants();
+     
         }
 
-          public void GetContestants()
-        {
-            Dictionary<object, Contestant> contestants = new Dictionary<object, Contestant>();
-            
-
-           var c1 = new Contestant(8675309);
-            c1.name = "Mary Anderson";
-            c1.email = "";
-            
-
-
-            var c2 = new Contestant(8675308);
-            c2.name = "Peter Anderson";
-            c2.email = "";
-
-            var c3 = new Contestant(8675307);
-            c3.name = "";
-            
-
-
-        }        
     }
 }
                 
