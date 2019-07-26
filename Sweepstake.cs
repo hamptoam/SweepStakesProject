@@ -13,7 +13,7 @@ namespace SweepstakesProject
 
         public Sweepstake()
         {
-            contestants = new Dictionary<object, Contestant>();
+            contestants = new Dictionary<Object, Contestant>();
 
         }
         public void RegisterContestant(Contestant contestants) //insert sweepstakes?
@@ -25,8 +25,6 @@ namespace SweepstakesProject
 
             //todo
         }
-
-    
     }
 }
 

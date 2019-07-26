@@ -9,6 +9,8 @@ namespace SweepstakesProject
     public class SweepstakeStackManager : ISweepstakesManager
     {
 
+        public Dictionary contestants;
+
         public SweepstakeStackManager()
         {
             GetSweepstakeStack();
@@ -18,7 +20,7 @@ namespace SweepstakesProject
         public static void GetSweepstakeStack()
         {
 
-            Stack st = new Stack();
+            Stack st = new Stack(contestants);
             st.Push(1);
             st.Push(2);
             st.Push(3);

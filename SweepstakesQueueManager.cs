@@ -8,8 +8,7 @@ namespace SweepstakesProject
 {
     class SweepstakesQueueManager : ISweepstakesManager
     {
-
-
+        public Dictionary contestants; 
 
         public SweepstakesQueueManager()
         {
@@ -19,7 +18,8 @@ namespace SweepstakesProject
 
         public static void GetSweepstakeQueue()
         {
-            Queue contestantQueue = new Queue();
+
+            Queue contestantQueue = new Queue(contestants);
 
         }
     }
