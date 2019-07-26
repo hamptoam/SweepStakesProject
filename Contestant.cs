@@ -12,7 +12,7 @@ namespace SweepstakesProject
         public string name { get; set; }
         public string email { get; set; }
 
-        public Contestant(int id)
+        public Contestant(string id)
         {
      
         }
