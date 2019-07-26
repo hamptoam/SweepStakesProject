@@ -26,13 +26,7 @@ namespace SweepstakesProject
             //todo
         }
 
-        public void GetSweepStakes()
-        {
-
-
-
-
-        }
+    
     }
 }
 

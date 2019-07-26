@@ -6,12 +6,26 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProject
 {
-    public interface ISweepstakesManager
+    public interface ISweepstakesManager 
     {
+
+
+
+
+
 
         //get sweepstakes
 
+
+
+
+
+
+
         //insert sweepstakes 
+
+
+
 
     }
 }
