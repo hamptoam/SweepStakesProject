@@ -6,32 +6,22 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProject
 {
-    public class MarketingFirm
+    class Queue_Manager
     {
 
 
 
-
-
-
-
-        public MarketingFirm()
+        public Queue_Manager()
         {
 
 
         }
         
 
-        public interface ISweepStakesManager
+        public static void GetSweepstakeQueue()
         {
+            Queue contestantQueue = new Queue();
 
         }
-
-        //set up menu
-        //set up stack and queue managers 
-        //     
-
-        }
-
-
+    }
 }

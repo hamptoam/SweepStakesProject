@@ -16,17 +16,22 @@ namespace SweepstakesProject
             contestants = new Dictionary<object, Contestant>();
 
         }
-        public void RegisterContestants(Contestant, contestant)
+        public void RegisterContestant(Contestant contestants) //insert sweepstakes?
         {
 
-            Contestant thiscontestant = new Contestant(string id);
-            
-            Console.WriteLine("What is your full name?");
-            thiscontestant.name = Console.ReadLine(); 
-            Console.WriteLine("What is your email?");
-            thiscontestant.email = Console.ReadLine();
+            Contestant thiscontestant = new Contestant();
+         
+            //try to fix these errors 
 
-            contestants.Add(thiscontestant.name + thiscontestant.email);   
+            //todo
+        }
+
+        public void GetSweepStakes()
+        {
+
+
+
+
         }
     }
 }

@@ -12,9 +12,26 @@ namespace SweepstakesProject
         public string name { get; set; }
         public string email { get; set; }
 
-        public Contestant(string id)
+        public Contestant()
         {
-     
+            Console.WriteLine("What is your full name?");
+            this.name = Console.ReadLine();
+            Console.WriteLine("What is your email?");
+            this.email = Console.ReadLine();
+            this.id = randomId();
+
+           // RegisterContestant();
+            
+
+
+         int randomId()
+            {
+                Random random = new Random();
+                int id = random.Next(10000, 20000);
+
+                return id;
+            }
+
         }
 
     }
